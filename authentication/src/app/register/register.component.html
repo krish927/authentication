@@ -1,1 +1,33 @@
-<p>register works!</p>
+<mat-card>
+    <mat-card-header>
+        <h1>User Registration</h1>
+    </mat-card-header>
+    <mat-card-content>
+        <form class="example-form" [formGroup]="registerationForm" (submit)="proceedRegistration()">
+            <mat-form-field class="example-full-width">
+              <mat-label>User Name</mat-label>
+              <input matInput type="text" formControlName="id">
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+              <mat-label>Name</mat-label>
+              <input matInput type="text" formControlName="name">
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <mat-label>Email</mat-label>
+                <input matInput type="email" formControlName="email">
+              </mat-form-field>
+            <mat-form-field class="example-full-width">
+              <mat-label>Password</mat-label>
+              <input matInput type="password" formControlName="password">
+            </mat-form-field>
+            <div>
+                <mat-radio-group formControlName="gender" aria-label="Gender">
+                    <mat-radio-button value="male">Male</mat-radio-button>
+                    <mat-radio-button value="female">Female</mat-radio-button>
+                </mat-radio-group>
+            </div>
+            <button mat-raised-button color="primary">Submit</button>
+            <button mat-raised-button color="accent" routerLink="/login">Back to Login</button>
+        </form>
+    </mat-card-content>
+</mat-card>
