@@ -1,6 +1,5 @@
 {
   "user": [
-    {},
     {
       "id": "krish",
       "name": "krishankant",
@@ -8,7 +7,79 @@
       "email": "krishankant349@gmail.com",
       "gender": "male",
       "role": "",
+      "isActive": true
+    },
+    {
+      "id": "Rahul",
+      "name": "Rahul",
+      "password": "Virus@#321",
+      "email": "rahul@gmail.com",
+      "gender": "male",
+      "role": "",
       "isActive": false
+    },
+    {
+      "id": "krish",
+      "name": "krishankant",
+      "password": "Virus@#321",
+      "email": "krishankant349@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "Rahul",
+      "name": "Rahul",
+      "password": "Virus@#321",
+      "email": "rahul@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "krish",
+      "name": "krishankant",
+      "password": "Virus@#321",
+      "email": "krishankant349@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "Rahul",
+      "name": "Rahul",
+      "password": "Virus@#321",
+      "email": "rahul@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "krish",
+      "name": "krishankant",
+      "password": "Virus@#321",
+      "email": "krishankant349@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "Rahul",
+      "name": "Rahul",
+      "password": "Virus@#321",
+      "email": "rahul@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "krish",
+      "name": "krishankant",
+      "password": "Virus@#321",
+      "email": "krishankant349@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": true
     },
     {
       "id": "Rahul",

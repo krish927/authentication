@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable, Output } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
@@ -25,4 +25,14 @@ export class AuthService {
   updateUser(id: string, inputData: any){
     return this.http.put(this.apiUrl+'/'+id, inputData);
   }
+
+  isLoggedIn(){
+    return sessionStorage.getItem('username')!=null
+  }
+
+  @Output() showMenuEvent = new EventEmitter<any>();
+  showMenu(data: any){
+    this.showMenuEvent.emit(data);
+  }
+
 }
